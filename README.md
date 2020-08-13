@@ -8,8 +8,8 @@ go to build.gradle file to manage dependencies.
 
 ### Step-2.
 go through property file to insert properties important for RabbitMQ.
-for Exchange/Channel = Output
-for Queue = Input
+for Exchange/Channel = Output. 
+for Queue = Input.
 
 ### Step-3.
 go through RabbitMessageSource interface.
