@@ -1,7 +1,7 @@
 # rabbitmq-spring-cloud-stream
 rabbitmq project using spring cloud stream
 
-## Steps to go throgh codes.
+## Steps to go through codes.
 
 ### Step-1.
 go to build.gradle file to manage dependencies.
