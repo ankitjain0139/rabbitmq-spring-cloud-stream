@@ -32,3 +32,18 @@ go through MessageService where i have written business logic to send message pa
 go through MessageListener, in this we have used an annotation @StreamListener to create our lisener.
 This listener can read messages from RabbitMQ and we can verify.
 
+### Dependencies
+//lombok dependency
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	
+	//swagger dependency
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '3.0.0'
+	implementation "io.springfox:springfox-boot-starter:3.0.0"
+	
+	//rabbitmq dependency
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-stream-rabbit', version: '3.0.3.RELEASE'
+	
+	//Easy Random Framework dependency
+	testImplementation('org.jeasy:easy-random-core:4.2.0')
+	compile("com.cah.chh.ep:easy-random-framework:1.0.0")
