@@ -32,7 +32,7 @@ go through MessageService where i have written business logic to send message pa
 go through MessageListener, in this we have used an annotation @StreamListener to create our lisener.
 This listener can read messages from RabbitMQ and we can verify.
 
-### Dependencies
+### Dependencies for Build.gradle
 //lombok dependency
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
